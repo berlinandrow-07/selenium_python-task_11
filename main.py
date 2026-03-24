@@ -20,6 +20,7 @@ def user_input(driver):
 def login_credential(email,password,username,passwords):
     email.send_keys(username)
     password.send_keys(passwords)
+        
 # AUTOMATION TESTING
 driver=guvi_login()
 email, password, submit = user_input(driver)
