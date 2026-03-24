@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.options import Options
 
 def guvi_login():
         chrome_options = Options()
-        chrome_options.add_argument("--headless")
+        chrome_options.add_argument("--incognito")
         driver = webdriver.Chrome()
         driver.get("https://www.guvi.in/")
         driver.maximize_window()
